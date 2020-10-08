@@ -9,10 +9,10 @@ the above categories. The backend code was written in C#, the values were stored
 and I used Visual Studio Code as my editor to deploy everything to the local Kestrel Server.
 
 The following operations are supported:
-// GET: api/product
-// GET: api/product/{id}
-// POST: api/product
-// PUT: api/product/n
-// DELETE: api/product/n
+* GET: api/product
+* GET: api/product/{id}
+* POST: api/product
+* PUT: api/product/n
+* DELETE: api/product/n
 
 All source code can be found in the folders here.
