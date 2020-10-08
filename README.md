@@ -6,7 +6,7 @@ Equitable Life has 3 core products- Individual Insurance, Savings and Retirement
 https://www.equitable.ca/
 
 This particular Web API, created in ASP.NET and Entity.Framework will allow one to reach any of the endpoints that fall under
-the above categories. To create this sample Web API, I wrote the backend code in C#, the values were stored in a local MS Sql Server hosted in Docker 
+the above categories. I wrote the backend code in C#, the values were stored in a local MS Sql Server hosted in Docker 
 and I used Visual Studio Code as my editor to deploy everything to the local Kestrel Server. To test database connectivity, I used Azure Data Studio.
 
 The following operations are supported:
