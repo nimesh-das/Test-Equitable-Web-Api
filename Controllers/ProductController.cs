@@ -1,5 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProductAPI.Services;
 using ProductAPI.Entities;
 namespace ProductAPI.Controllers
@@ -40,6 +41,38 @@ namespace ProductAPI.Controllers
                _context.SaveChanges();
                return CreatedAtAction("GetProduct", new Product{Id = product.Id}, product);
           }
+
+          // PUT: api/product/n
+          [HttpPut("{id}")]
+          public IActionResult PutProduct(int id, [FromBody]Product product)
+          {
+               if (id != product.Id) 
+               {
+                    return BadRequest();
+               }
+
+               _context.Entry(product).State = EntityState.Modified;
+               _context.SaveChanges();   
+               
+               return NoContent();
+          }
+
+          // DELETE: api/product/n
+          [HttpDelete("{id}")]
+          public IActionResult DeleteProduct(int id)
+          {
+               var product = _context.Products.Find(id);
+
+               if (product == null) {
+                    return NotFound();
+               }
+
+               _context.Products.Remove(product);
+               _context.SaveChanges();
+
+               return Ok(product);
+          }
+
 
      }
 }
