@@ -11,8 +11,15 @@ and I used Visual Studio Code as my editor to deploy everything to the local Kes
 The following operations are supported:
 * GET: api/product
 * GET: api/product/{id}
+* Demo Video:
+https://drive.google.com/file/d/1Rg68G-hlKKnx40qXLeik-JPUWnVI__k6/view?usp=sharing
+
 * POST: api/product
-* PUT: api/product/n
 * DELETE: api/product/n
+* Demo Video:
+https://drive.google.com/file/d/1RCXqZy_cn-gLRKyR6QgFd9LLaeN4oCff/view?usp=sharing
+
+* PUT: api/product/n
+https://drive.google.com/file/d/1rFvVNqzn-QNhaXkYf9pN6kEqzUlj0pJY/view?usp=sharing
 
 All source code can be found in the folders here.
