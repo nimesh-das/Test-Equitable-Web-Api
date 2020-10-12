@@ -28,3 +28,6 @@ The following operations are supported:
 [Demo3](https://drive.google.com/file/d/1rFvVNqzn-QNhaXkYf9pN6kEqzUlj0pJY/view?usp=sharing)
 
 All source code can be found in the folders here.
+
+UPDATE: I have since deployed the app in Azure so you can go to the following link to test the functinality above:
+https://mynewinsurancewebapp2.azurewebsites.net/
