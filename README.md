@@ -2,7 +2,6 @@
 A REST Web Api for Equitable Life's Core Products
 
 Equitable Life has 3 core products- Individual Insurance, Savings and Retirement and Group Benefits here that can be found online on their website:
-
 https://www.equitable.ca/
 
 This particular Web API, created in ASP.NET and Entity.Framework will allow one to reach any of the endpoints that fall under
@@ -30,5 +29,4 @@ The following operations are supported:
 All source code can be found in the folders here.
 
 UPDATE: I have since deployed the app in Azure, with the data hosted in an Azure SQL Database so one can go to the following link to test the functinality above:
-
 https://mynewinsurancewebapp2.azurewebsites.net/
