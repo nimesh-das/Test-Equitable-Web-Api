@@ -29,4 +29,4 @@ The following operations are supported:
 All source code can be found in the folders here.
 
 UPDATE: I have since deployed the app in Azure, with the data hosted in an Azure SQL Database so one can go to the following link to test the functinality above:\
-https://mynewinsurancewebapp2.azurewebsites.net/
+https://mynewinsurancewebapp2.azurewebsites.net/ (Currently depreciated due to Microsoft's billing rates)
